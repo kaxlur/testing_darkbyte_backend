@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'testfrontend-psi.vercel.app',
+    'web-production-3b7d9.up.railway.app'
 ]
 
 # ==================================================================
@@ -119,7 +120,8 @@ TEMPLATES = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    'https://testfrontend-psi.vercel.app'
+    'https://testfrontend-psi.vercel.app',
+    'https://web-production-3b7d9.up.railway.app'
 ]
 CORS_ALLOW_CREDENTIALS = True
 
