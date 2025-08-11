@@ -124,6 +124,15 @@ CORS_ALLOWED_ORIGINS = [
     'https://testfrontend-psi.vercel.app',
     'https://web-production-3b7d9.up.railway.app'
 ]
+
+# CSRF trusted domains for POST requests from frontend
+CSRF_TRUSTED_ORIGINS = [
+    'https://testfrontend-psi.vercel.app',
+    'https://web-production-3b7d9.up.railway.app',
+]
+
+
+
 CORS_ALLOW_CREDENTIALS = True
 
 
